@@ -199,6 +199,13 @@ width: calc((100% - 72px) / 4);
 }
 
 .icon-advantages{
+border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #f4f4fd;
+    padding: 24px 100px;
 }
 
 
