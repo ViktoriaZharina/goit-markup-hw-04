@@ -121,7 +121,8 @@ address ul {
     padding: 188px 0;
     text-align: center;
     margin: 0 auto;
-    background-image: url()
+    background-image: url('../images/hero-image.jpg');
+    background-repeat: repeat;
 }
 
 .section-one-title{
