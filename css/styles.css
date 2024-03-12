@@ -84,12 +84,29 @@ address ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
 .nav-link:focus {
     color: #404BBF;
 }
+.current{
+position: relative;
+color: #404BBF;
+}
+
+.current::after{
+    content: "";
+    position: absolute;
+    background-color: #404bbf;
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+}
+
 
 .address {
     font-style: normal;
@@ -104,6 +121,7 @@ address ul {
     letter-spacing: 0.02em;
     display: flex;
         gap: 40px;
+        transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
@@ -246,6 +264,14 @@ color: #434455;
     background-color: #4D5AE5;
     border-radius: 20px;
     padding: 12px;
+}
+
+.icon-web:hover{
+    background-color: #31D0AA;
+}
+
+.icon-web:focus {
+    background-color: #31D0AA;
 }
 
 
@@ -394,6 +420,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+      
+    
 }
 
 ul {
