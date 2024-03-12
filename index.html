@@ -60,9 +60,11 @@
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="advantages-list">
             <li class="advantages-item">
-              <svg class="icon-advantages" width="64" height="64">
-                <use href="./images/icons.svg#icon-antenna"></use>
-              </svg>
+              <div class="advantages-icons">
+                <svg class="icon-advantages" width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="advantages-item-title">Strategy</h3>
               <p class="advantages-item-text">
                 Our goal is to identify the business problem to walk away with
@@ -70,9 +72,11 @@
               </p>
             </li>
             <li class="advantages-item">
-              <svg class="icon-advantages" width="64" height="64">
-                <use href="./images/icons.svg#icon-clock"></use>
-              </svg>
+              <div class="advantages-icons">
+                <svg class="icon-advantages" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="advantages-item-title">Punctuality</h3>
               <p class="advantages-item-text">
                 Bring the key message to the brand's audience for the best price
@@ -80,9 +84,11 @@
               </p>
             </li>
             <li class="advantages-item">
-              <svg class="icon-advantages" width="64" height="64">
-                <use href="./images/icons.svg#icon-diagram"></use>
-              </svg>
+              <div class="advantages-icons">
+                <svg class="icon-advantages" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="advantages-item-title">Diligence</h3>
               <p class="advantages-item-text">
                 Research and confirm brands that present the strongest digital
@@ -90,9 +96,11 @@
               </p>
             </li>
             <li class="advantages-item">
-              <svg class="icon-advantages" width="64" height="64">
-                <use href="./images/icons.svg#icon-astronaut"></use>
-              </svg>
+              <div class="advantages-icons">
+                <svg class="icon-advantages" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="advantages-item-title">Technologies</h3>
               <p class="advantages-item-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -112,20 +120,28 @@
               <div class="team-div">
                 <h3 class="team-item-title">Mark Guerrero</h3>
                 <p class="team-item-text">Product Designer</p>
-                <div class="icons-team">
-                  <svg class="icon-web" width="40" height="40">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                  <svg class="icon-web" width="40" height="40">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                  <svg class="icon-web" width="40" height="40">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                  <svg class="icon-web" width="40" height="40">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </div>
+                <ul class="icons-team">
+                  <li>
+                    <svg class="icon-web" width="40" height="40">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon-web" width="40" height="40">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon-web" width="40" height="40">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg class="icon-web" width="40" height="40">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-item">
@@ -276,31 +292,44 @@
       </section>
     </main>
     <footer class="footer-main">
-      <div class="container">
-        <a class="footer-logo"
-          >Web <span class="footer-logo-color">Studio</span></a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
+      <div class="footer-all">
+        <div class="container first-footer">
+          <a class="footer-logo"
+            >Web <span class="footer-logo-color">Studio</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
 
-      <div class="icons-team footer">
-        <p class="footer-web-text">Social media</p>
-        <br />
-        <svg class="icon-web" width="40" height="40">
-          <use href="./images/icons.svg#icon-instagram"></use>
-        </svg>
-        <svg class="icon-web" width="40" height="40">
-          <use href="./images/icons.svg#icon-twitter"></use>
-        </svg>
-        <svg class="icon-web" width="40" height="40">
-          <use href="./images/icons.svg#icon-facebook"></use>
-        </svg>
-        <svg class="icon-web" width="40" height="40">
-          <use href="./images/icons.svg#icon-linkedin"></use>
-        </svg>
+        <div class="icons-team">
+          <p class="footer-web-text">Social media</p>
+          <ul class="footer-web">
+            <li class="footer-web-item">
+              <a class="footer-web-link" href="">
+                <svg class="icon-web" width="40" height="40">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <svg class="icon-web" width="40" height="40">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="icon-web" width="40" height="40">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="icon-web" width="40" height="40">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
